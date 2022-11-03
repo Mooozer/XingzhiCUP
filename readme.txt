@@ -26,7 +26,7 @@ baidu_stopwords.txt 文件是公开的百度停用词表,可从此处找到: htt
 
 代码运行说明: 
 
-如果从头训练模型，先后运行MacBERT_training_and_original_prediction.py 和 LIME_scores.py， 再运行model.py
+如果从头训练模型，先运行MacBERT_training_and_original_prediction.py, 再运行LIME_scores.py， 最后运行model.py
 
 如果从已训练的模型中一键获得结果，直接运行 model.py
 
