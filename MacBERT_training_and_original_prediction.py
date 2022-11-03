@@ -346,8 +346,7 @@ test_dataloader = DataLoader(
             sampler = SequentialSampler(test_dataset), # Pull out batches sequentially.
             batch_size = 64)
 
-output_dir = './已训练完成的模型/LSweight_macbert_large1_epoch3/'  #读取训练完成的模型
-#output_dir = './LSweight_macbert_large1/'  #读取新训练的模型
+output_dir = './LSweight_macbert_large1/'  #读取新训练的模型
 
 from transformers import BertForSequenceClassification, AdamW, BertConfig
 model = BertForSequenceClassification.from_pretrained(output_dir)
@@ -415,8 +414,7 @@ test_dataloader = DataLoader(
             sampler = SequentialSampler(test_dataset), # Pull out batches sequentially.
             batch_size = 64)
 
-output_dir = './已训练完成的模型/LSweight_macbert_large2_epoch2/'  #读取训练完成的模型
-#output_dir = './LSweight_macbert_large2/'  #读取新训练的模型
+output_dir = './LSweight_macbert_large2/'  #读取新训练的模型
 
 from transformers import BertForSequenceClassification, AdamW, BertConfig
 model = BertForSequenceClassification.from_pretrained(output_dir)
@@ -479,8 +477,7 @@ test_dataloader = DataLoader(
             sampler = SequentialSampler(test_dataset), # Pull out batches sequentially.
             batch_size = 64)
 
-output_dir = './已训练完成的模型/LSweight_macbert_large3_epoch3/'  #读取训练完成的模型
-#output_dir = './LSweight_macbert_large3/'  #读取新训练的模型
+output_dir = './LSweight_macbert_large3/'  #读取新训练的模型
 
 
 from transformers import BertForSequenceClassification, AdamW, BertConfig
