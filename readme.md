@@ -23,7 +23,7 @@ import math
 
 baidu_stopwords.txt can be found here: https://github.com/goto456/stopwords
 
-![www-msq-biobert](https://github.com/Mooozer/www-msq-biobert/blob/main/MSQ.png)
+![xingzhi](https://github.com/Mooozer/XingzhiCUP/blob/main/framework.jpg)
 
 
 If you train the model from scratch, run MacBERT_training_and_original_prediction.py, then run LIME_scores.py, and finally run model.py
